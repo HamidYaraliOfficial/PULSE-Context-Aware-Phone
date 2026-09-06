@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base palette — actual theme colors are driven by core/theme/Color.kt at runtime.
+         These XML colors are only used for the pre-Compose splash / window background. -->
+    <color name="windows_blue">#0067C0</color>
+    <color name="windows_blue_dark">#0C1F33</color>
+    <color name="pulse_red_accent">#C42B1C</color>
+    <color name="pulse_blue_accent">#0067C0</color>
+    <color name="surface_light">#F3F3F3</color>
+    <color name="surface_dark">#202020</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

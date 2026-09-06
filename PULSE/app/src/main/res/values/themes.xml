@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Root theme — Compose takes over all real theming via PulseTheme.kt.
+         This XML theme only styles the system window / splash before Compose attaches. -->
+    <style name="Theme.Pulse" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/surface_light</item>
+        <item name="android:navigationBarColor">@color/surface_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/surface_light</item>
+    </style>
+
+    <style name="Theme.Pulse.Splash" parent="Theme.Pulse">
+        <item name="android:windowBackground">@color/windows_blue</item>
+    </style>
+</resources>

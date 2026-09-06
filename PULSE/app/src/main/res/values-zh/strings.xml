@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PULSE 脉冲</string>
+    <string name="app_tagline">情境感知手机</string>
+
+    <!-- 导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_timeline">时间线</string>
+    <string name="nav_modes">模式</string>
+    <string name="nav_automations">自动化</string>
+    <string name="nav_insights">洞察</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- 首页 -->
+    <string name="home_current_context">当前情境</string>
+    <string name="home_confidence">置信度 %1$d%%</string>
+    <string name="home_active_mode">当前模式</string>
+    <string name="home_suggested_actions">建议操作</string>
+    <string name="home_focus_timer">专注计时器</string>
+    <string name="home_notification_summary">通知摘要</string>
+    <string name="home_battery">电池</string>
+    <string name="home_activity_overview">活动概览</string>
+    <string name="home_confirm_context">确认</string>
+    <string name="home_reject_context">拒绝</string>
+    <string name="home_correct_context">纠正</string>
+    <string name="home_why">为什么？</string>
+    <string name="home_quick_actions">快捷操作</string>
+    <string name="home_start_focus_session">开始专注时段</string>
+    <string name="home_no_active_mode">当前没有激活的模式 — 空闲</string>
+    <string name="home_greeting_morning">早上好</string>
+    <string name="home_greeting_afternoon">下午好</string>
+    <string name="home_greeting_evening">晚上好</string>
+    <string name="home_greeting_night">夜深了</string>
+
+    <!-- 情境类型 -->
+    <string name="context_study">学习</string>
+    <string name="context_work">工作</string>
+    <string name="context_meeting">会议</string>
+    <string name="context_driving">驾驶</string>
+    <string name="context_sleeping">睡眠</string>
+    <string name="context_exercising">运动</string>
+    <string name="context_traveling">旅行</string>
+    <string name="context_relaxing">休闲</string>
+    <string name="context_gaming">游戏</string>
+    <string name="context_commuting">通勤</string>
+    <string name="context_focus">专注</string>
+    <string name="context_busy">忙碌</string>
+    <string name="context_available">空闲</string>
+    <string name="context_custom">自定义</string>
+    <string name="context_unknown">未知</string>
+
+    <!-- 模式 -->
+    <string name="mode_focus">专注模式</string>
+    <string name="mode_study">学习模式</string>
+    <string name="mode_work">工作模式</string>
+    <string name="mode_meeting">会议模式</string>
+    <string name="mode_driving">驾驶模式</string>
+    <string name="mode_sleep">睡眠模式</string>
+    <string name="mode_workout">运动模式</string>
+    <string name="mode_travel">旅行模式</string>
+    <string name="mode_gaming">游戏模式</string>
+    <string name="mode_quiet">静音模式</string>
+    <string name="mode_custom">自定义模式</string>
+    <string name="mode_enable">启用</string>
+    <string name="mode_disable">停用</string>
+    <string name="mode_active_since">自 %1$s 起激活</string>
+    <string name="mode_last_used">上次使用：%1$s</string>
+    <string name="mode_schedule">时间安排</string>
+    <string name="mode_actions">操作</string>
+    <string name="mode_rules">相关规则</string>
+    <string name="mode_usage_history">使用历史</string>
+    <string name="mode_edit">编辑模式</string>
+
+    <!-- 时间安排 / 开放时间 -->
+    <string name="schedule_title">激活时间段</string>
+    <string name="schedule_add_range">添加时间段</string>
+    <string name="schedule_day_mon">周一</string>
+    <string name="schedule_day_tue">周二</string>
+    <string name="schedule_day_wed">周三</string>
+    <string name="schedule_day_thu">周四</string>
+    <string name="schedule_day_fri">周五</string>
+    <string name="schedule_day_sat">周六</string>
+    <string name="schedule_day_sun">周日</string>
+    <string name="schedule_from">从</string>
+    <string name="schedule_to">到</string>
+    <string name="schedule_status_active">当前处于激活状态</string>
+    <string name="schedule_status_inactive">当前未激活</string>
+    <string name="schedule_next_change_in">距离下次变化还有 %1$s</string>
+    <string name="schedule_next_change_at">下次变化时间：%1$s</string>
+    <string name="schedule_no_hours_set">尚未设置时间 — 仅根据情境进行判断</string>
+    <string name="schedule_copy_to_all_days">复制到所有天</string>
+
+    <!-- 自动化 / 规则 -->
+    <string name="automation_title">自动化</string>
+    <string name="automation_new">新建自动化</string>
+    <string name="automation_trigger">触发器</string>
+    <string name="automation_condition">条件</string>
+    <string name="automation_action">操作</string>
+    <string name="automation_priority">优先级</string>
+    <string name="automation_cooldown">冷却时间</string>
+    <string name="automation_duration">持续时间</string>
+    <string name="automation_exception">例外</string>
+    <string name="automation_test">测试</string>
+    <string name="automation_preview">预览</string>
+    <string name="automation_history">执行历史</string>
+    <string name="automation_execution_count">已执行 %1$d 次</string>
+    <string name="automation_last_execution">上次执行：%1$s</string>
+    <string name="automation_add_node">添加节点</string>
+    <string name="automation_canvas_hint">拖动节点排列自动化流程，然后按顺序连接它们</string>
+    <string name="automation_node_trigger">触发器</string>
+    <string name="automation_node_sensor">传感器</string>
+    <string name="automation_node_time">时间</string>
+    <string name="automation_node_location">位置</string>
+    <string name="automation_node_calendar">日历</string>
+    <string name="automation_node_app_usage">应用使用情况</string>
+    <string name="automation_node_device_state">设备状态</string>
+    <string name="automation_node_condition">条件</string>
+    <string name="automation_node_delay">延迟</string>
+    <string name="automation_node_action">操作</string>
+    <string name="automation_node_end">结束</string>
+    <string name="automation_operator_and">且</string>
+    <string name="automation_operator_or">或</string>
+    <string name="automation_operator_not">非</string>
+    <string name="automation_then">则</string>
+    <string name="automation_save">保存自动化</string>
+    <string name="automation_conflict_detected">检测到与其他规则冲突</string>
+
+    <!-- 时间线 -->
+    <string name="timeline_title">情境时间线</string>
+    <string name="timeline_today">今天</string>
+    <string name="timeline_edit_event">编辑事件</string>
+    <string name="timeline_delete_event">删除</string>
+    <string name="timeline_ignore_event">忽略</string>
+    <string name="timeline_empty">尚未记录任何情境活动</string>
+
+    <!-- 洞察 -->
+    <string name="insights_title">洞察</string>
+    <string name="insights_daily">每日</string>
+    <string name="insights_weekly">每周</string>
+    <string name="insights_monthly">每月</string>
+    <string name="insights_focus_time">专注时长</string>
+    <string name="insights_distraction_count">分心次数</string>
+    <string name="insights_notification_load">通知负载</string>
+    <string name="insights_mode_switches">模式切换次数</string>
+    <string name="insights_active_hours">活跃时段</string>
+    <string name="insights_app_usage">应用使用情况</string>
+    <string name="insights_patterns">检测到的规律</string>
+    <string name="insights_pattern_disclaimer">基于你近期活动的建议 — 并非绝对事实</string>
+    <string name="insights_no_data">本地数据尚不足以生成洞察</string>
+
+    <!-- 通知引擎 -->
+    <string name="notif_digest_title">通知摘要</string>
+    <string name="notif_digest_summary">在「%2$s」期间，有 %1$d 条通知被延后</string>
+    <string name="notif_priority_high">高</string>
+    <string name="notif_priority_normal">普通</string>
+    <string name="notif_priority_low">低</string>
+    <string name="notif_category_deferred">已延后</string>
+
+    <!-- 专注时段 -->
+    <string name="focus_session_title">专注时段</string>
+    <string name="focus_session_goal">目标</string>
+    <string name="focus_session_duration">时长</string>
+    <string name="focus_session_allowed_apps">允许的应用</string>
+    <string name="focus_session_start">开始时段</string>
+    <string name="focus_session_stop">结束时段</string>
+    <string name="focus_session_summary_title">时段总结</string>
+    <string name="focus_session_time_focused">专注时长</string>
+    <string name="focus_session_distractions">检测到的分心次数</string>
+    <string name="focus_session_deferred">已延后的通知</string>
+
+    <!-- 学习模式 -->
+    <string name="study_subject">科目</string>
+    <string name="study_goal">目标</string>
+    <string name="study_playlist">学习播放列表</string>
+    <string name="study_history">时段历史</string>
+
+    <!-- 会议模式 -->
+    <string name="meeting_detected">检测到会议：%1$s</string>
+    <string name="meeting_enter_confirm">是否进入会议模式？</string>
+    <string name="meeting_summary">会议持续了 %1$s，%2$d 条通知被延后</string>
+
+    <!-- 驾驶模式 -->
+    <string name="driving_minimal_ui_notice">检测到驾驶状态 — 界面已简化以确保安全</string>
+    <string name="driving_voice_hint">请尽可能使用语音指令</string>
+
+    <!-- 睡眠模式 -->
+    <string name="sleep_bedtime">就寝时间</string>
+    <string name="sleep_wake_time">起床时间</string>
+    <string name="sleep_suggest">现在似乎是就寝时间 — 是否激活睡眠模式？</string>
+    <string name="sleep_morning_summary">睡眠模式已激活 %1$s</string>
+
+    <!-- 可解释性 -->
+    <string name="explain_title">为什么是这个情境？</string>
+    <string name="explain_signals_used">使用的信号</string>
+    <string name="explain_close">关闭</string>
+
+    <!-- 权限中心 -->
+    <string name="perm_center_title">权限中心</string>
+    <string name="perm_center_subtitle">以下每项功能均为可选，并可独立控制。PULSE 不会申请当前不需要的权限。</string>
+    <string name="perm_notifications">通知</string>
+    <string name="perm_notifications_desc">显示建议与摘要</string>
+    <string name="perm_location">位置</string>
+    <string name="perm_location_desc">仅用于基于位置的规则以及旅行/通勤检测</string>
+    <string name="perm_activity_recognition">活动识别</string>
+    <string name="perm_activity_recognition_desc">识别步行、跑步、骑行、驾驶、静止状态</string>
+    <string name="perm_sensors">运动传感器</string>
+    <string name="perm_sensors_desc">加速度计、陀螺仪、计步器、光线、距离传感器</string>
+    <string name="perm_usage_access">使用情况访问权限</string>
+    <string name="perm_usage_access_desc">完全在本地设备上分析应用使用模式</string>
+    <string name="perm_calendar">日历</string>
+    <string name="perm_calendar_desc">读取事件时间与标题以检测会议</string>
+    <string name="perm_bluetooth">蓝牙</string>
+    <string name="perm_bluetooth_desc">检测已知的耳机、车载音响与可穿戴设备</string>
+    <string name="perm_notification_access">通知访问权限</string>
+    <string name="perm_notification_access_desc">智能通知过滤与摘要功能所必需</string>
+    <string name="perm_dnd_access">勿扰模式访问权限</string>
+    <string name="perm_dnd_access_desc">模式需要此权限来调整免打扰过滤器</string>
+    <string name="perm_status_granted">已授予</string>
+    <string name="perm_status_denied">未授予</string>
+    <string name="perm_status_not_requested">尚未请求</string>
+    <string name="perm_open_settings">打开设置</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_general">通用</string>
+    <string name="settings_permissions">权限</string>
+    <string name="settings_context_detection">情境检测</string>
+    <string name="settings_notifications">通知</string>
+    <string name="settings_privacy">隐私</string>
+    <string name="settings_battery">电池</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_ai">人工智能</string>
+    <string name="settings_accessibility">无障碍</string>
+    <string name="settings_automation">自动化</string>
+    <string name="settings_data_management">数据管理</string>
+    <string name="settings_advanced">高级</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_dark_mode">深色模式</string>
+    <string name="settings_dynamic_color">动态取色（Material You）</string>
+
+    <!-- 主题 -->
+    <string name="theme_windows_default">Windows 默认</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_red">红色主题</string>
+    <string name="theme_blue">蓝色主题</string>
+    <string name="theme_system">跟随系统</string>
+
+    <!-- 语言 -->
+    <string name="lang_english">English</string>
+    <string name="lang_persian">فارسی</string>
+    <string name="lang_chinese">中文</string>
+
+    <!-- 数据保留 -->
+    <string name="retention_title">数据保留</string>
+    <string name="retention_context_history">情境历史</string>
+    <string name="retention_usage_analytics">使用分析</string>
+    <string name="retention_notification_metadata">通知元数据</string>
+    <string name="retention_event_logs">事件日志</string>
+    <string name="retention_clear_now">立即清除</string>
+    <string name="retention_auto_delete_after">自动删除时限</string>
+    <string name="retention_7_days">7 天</string>
+    <string name="retention_30_days">30 天</string>
+    <string name="retention_90_days">90 天</string>
+    <string name="retention_forever">永久保留</string>
+    <string name="retention_cleared_toast">数据已清除</string>
+
+    <!-- 命令面板 -->
+    <string name="command_palette_hint">搜索模式、规则、设置、历史记录…</string>
+    <string name="command_palette_no_results">未找到结果</string>
+
+    <!-- 模拟 / 测试模式 -->
+    <string name="simulation_title">模拟模式</string>
+    <string name="simulation_subtitle">构建一个合成情境以测试检测效果，而不影响真实设备状态</string>
+    <string name="simulation_run">运行模拟</string>
+    <string name="simulation_result">结果</string>
+    <string name="simulation_disclaimer">模拟模式在未经确认前绝不会触发真实的敏感操作</string>
+
+    <!-- 通用 -->
+    <string name="common_save">保存</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_delete">删除</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_confirm">确认</string>
+    <string name="common_yes">是</string>
+    <string name="common_no">否</string>
+    <string name="common_on">开</string>
+    <string name="common_off">关</string>
+    <string name="common_minutes">%1$d 分钟</string>
+    <string name="common_hours">%1$d 小时 %2$d 分钟</string>
+    <string name="common_search">搜索</string>
+    <string name="common_add">添加</string>
+    <string name="common_done">完成</string>
+    <string name="common_back">返回</string>
+    <string name="common_loading">加载中…</string>
+    <string name="common_empty">暂无内容</string>
+</resources>

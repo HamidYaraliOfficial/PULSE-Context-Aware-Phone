@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PULSE</string>
+    <string name="app_tagline">Context-Aware Phone</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_timeline">Timeline</string>
+    <string name="nav_modes">Modes</string>
+    <string name="nav_automations">Automations</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_current_context">Current Context</string>
+    <string name="home_confidence">%1$d%% confidence</string>
+    <string name="home_active_mode">Active Mode</string>
+    <string name="home_suggested_actions">Suggested Actions</string>
+    <string name="home_focus_timer">Focus Timer</string>
+    <string name="home_notification_summary">Notification Summary</string>
+    <string name="home_battery">Battery</string>
+    <string name="home_activity_overview">Activity Overview</string>
+    <string name="home_confirm_context">Confirm</string>
+    <string name="home_reject_context">Reject</string>
+    <string name="home_correct_context">Correct</string>
+    <string name="home_why">Why?</string>
+    <string name="home_quick_actions">Quick Actions</string>
+    <string name="home_start_focus_session">Start Focus Session</string>
+    <string name="home_no_active_mode">No mode active — Available</string>
+    <string name="home_greeting_morning">Good morning</string>
+    <string name="home_greeting_afternoon">Good afternoon</string>
+    <string name="home_greeting_evening">Good evening</string>
+    <string name="home_greeting_night">Good night</string>
+
+    <!-- Context types -->
+    <string name="context_study">Study</string>
+    <string name="context_work">Work</string>
+    <string name="context_meeting">Meeting</string>
+    <string name="context_driving">Driving</string>
+    <string name="context_sleeping">Sleeping</string>
+    <string name="context_exercising">Exercising</string>
+    <string name="context_traveling">Traveling</string>
+    <string name="context_relaxing">Relaxing</string>
+    <string name="context_gaming">Gaming</string>
+    <string name="context_commuting">Commuting</string>
+    <string name="context_focus">Focus</string>
+    <string name="context_busy">Busy</string>
+    <string name="context_available">Available</string>
+    <string name="context_custom">Custom</string>
+    <string name="context_unknown">Unknown</string>
+
+    <!-- Modes -->
+    <string name="mode_focus">Focus Mode</string>
+    <string name="mode_study">Study Mode</string>
+    <string name="mode_work">Work Mode</string>
+    <string name="mode_meeting">Meeting Mode</string>
+    <string name="mode_driving">Driving Mode</string>
+    <string name="mode_sleep">Sleep Mode</string>
+    <string name="mode_workout">Workout Mode</string>
+    <string name="mode_travel">Travel Mode</string>
+    <string name="mode_gaming">Gaming Mode</string>
+    <string name="mode_quiet">Quiet Mode</string>
+    <string name="mode_custom">Custom Mode</string>
+    <string name="mode_enable">Enable</string>
+    <string name="mode_disable">Disable</string>
+    <string name="mode_active_since">Active since %1$s</string>
+    <string name="mode_last_used">Last used %1$s</string>
+    <string name="mode_schedule">Schedule</string>
+    <string name="mode_actions">Actions</string>
+    <string name="mode_rules">Related Rules</string>
+    <string name="mode_usage_history">Usage History</string>
+    <string name="mode_edit">Edit Mode</string>
+
+    <!-- Schedule / hours editor -->
+    <string name="schedule_title">Active Hours</string>
+    <string name="schedule_add_range">Add time range</string>
+    <string name="schedule_day_mon">Mon</string>
+    <string name="schedule_day_tue">Tue</string>
+    <string name="schedule_day_wed">Wed</string>
+    <string name="schedule_day_thu">Thu</string>
+    <string name="schedule_day_fri">Fri</string>
+    <string name="schedule_day_sat">Sat</string>
+    <string name="schedule_day_sun">Sun</string>
+    <string name="schedule_from">From</string>
+    <string name="schedule_to">To</string>
+    <string name="schedule_status_active">Active now</string>
+    <string name="schedule_status_inactive">Inactive now</string>
+    <string name="schedule_next_change_in">Next change in %1$s</string>
+    <string name="schedule_next_change_at">Next change at %1$s</string>
+    <string name="schedule_no_hours_set">No hours set — always evaluated by context only</string>
+    <string name="schedule_copy_to_all_days">Copy to all days</string>
+
+    <!-- Automations / Rules -->
+    <string name="automation_title">Automations</string>
+    <string name="automation_new">New Automation</string>
+    <string name="automation_trigger">Trigger</string>
+    <string name="automation_condition">Condition</string>
+    <string name="automation_action">Action</string>
+    <string name="automation_priority">Priority</string>
+    <string name="automation_cooldown">Cooldown</string>
+    <string name="automation_duration">Duration</string>
+    <string name="automation_exception">Exception</string>
+    <string name="automation_test">Test</string>
+    <string name="automation_preview">Preview</string>
+    <string name="automation_history">Execution History</string>
+    <string name="automation_execution_count">Executed %1$d times</string>
+    <string name="automation_last_execution">Last run: %1$s</string>
+    <string name="automation_add_node">Add Node</string>
+    <string name="automation_canvas_hint">Drag nodes to arrange your automation, then connect them in order</string>
+    <string name="automation_node_trigger">Trigger</string>
+    <string name="automation_node_sensor">Sensor</string>
+    <string name="automation_node_time">Time</string>
+    <string name="automation_node_location">Location</string>
+    <string name="automation_node_calendar">Calendar</string>
+    <string name="automation_node_app_usage">App Usage</string>
+    <string name="automation_node_device_state">Device State</string>
+    <string name="automation_node_condition">Condition</string>
+    <string name="automation_node_delay">Delay</string>
+    <string name="automation_node_action">Action</string>
+    <string name="automation_node_end">End</string>
+    <string name="automation_operator_and">AND</string>
+    <string name="automation_operator_or">OR</string>
+    <string name="automation_operator_not">NOT</string>
+    <string name="automation_then">THEN</string>
+    <string name="automation_save">Save Automation</string>
+    <string name="automation_conflict_detected">Conflict detected with another rule</string>
+
+    <!-- Timeline -->
+    <string name="timeline_title">Context Timeline</string>
+    <string name="timeline_today">Today</string>
+    <string name="timeline_edit_event">Edit Event</string>
+    <string name="timeline_delete_event">Delete</string>
+    <string name="timeline_ignore_event">Ignore</string>
+    <string name="timeline_empty">No context activity recorded yet</string>
+
+    <!-- Insights -->
+    <string name="insights_title">Insights</string>
+    <string name="insights_daily">Daily</string>
+    <string name="insights_weekly">Weekly</string>
+    <string name="insights_monthly">Monthly</string>
+    <string name="insights_focus_time">Focus Time</string>
+    <string name="insights_distraction_count">Distractions</string>
+    <string name="insights_notification_load">Notification Load</string>
+    <string name="insights_mode_switches">Mode Switches</string>
+    <string name="insights_active_hours">Active Hours</string>
+    <string name="insights_app_usage">App Usage</string>
+    <string name="insights_patterns">Detected Patterns</string>
+    <string name="insights_pattern_disclaimer">Suggestion based on your recent activity — not a guaranteed fact</string>
+    <string name="insights_no_data">Not enough local data yet to show insights</string>
+
+    <!-- Notifications engine -->
+    <string name="notif_digest_title">Notification Digest</string>
+    <string name="notif_digest_summary">%1$d notifications were deferred while you were in %2$s</string>
+    <string name="notif_priority_high">High</string>
+    <string name="notif_priority_normal">Normal</string>
+    <string name="notif_priority_low">Low</string>
+    <string name="notif_category_deferred">Deferred</string>
+
+    <!-- Focus session -->
+    <string name="focus_session_title">Focus Session</string>
+    <string name="focus_session_goal">Goal</string>
+    <string name="focus_session_duration">Duration</string>
+    <string name="focus_session_allowed_apps">Allowed Apps</string>
+    <string name="focus_session_start">Start Session</string>
+    <string name="focus_session_stop">End Session</string>
+    <string name="focus_session_summary_title">Session Summary</string>
+    <string name="focus_session_time_focused">Time focused</string>
+    <string name="focus_session_distractions">Distractions detected</string>
+    <string name="focus_session_deferred">Notifications deferred</string>
+
+    <!-- Study mode -->
+    <string name="study_subject">Subject</string>
+    <string name="study_goal">Goal</string>
+    <string name="study_playlist">Study Playlist</string>
+    <string name="study_history">Session History</string>
+
+    <!-- Meeting mode -->
+    <string name="meeting_detected">Meeting detected: %1$s</string>
+    <string name="meeting_enter_confirm">Enter Meeting Mode?</string>
+    <string name="meeting_summary">Meeting lasted %1$s, %2$d notifications deferred</string>
+
+    <!-- Driving mode -->
+    <string name="driving_minimal_ui_notice">Driving detected — interface simplified for safety</string>
+    <string name="driving_voice_hint">Use voice commands where possible</string>
+
+    <!-- Sleep mode -->
+    <string name="sleep_bedtime">Bedtime</string>
+    <string name="sleep_wake_time">Wake time</string>
+    <string name="sleep_suggest">It looks like it is bedtime — activate Sleep Mode?</string>
+    <string name="sleep_morning_summary">Sleep Mode was active for %1$s</string>
+
+    <!-- Explainability -->
+    <string name="explain_title">Why this context?</string>
+    <string name="explain_signals_used">Signals used</string>
+    <string name="explain_close">Close</string>
+
+    <!-- Permission Center -->
+    <string name="perm_center_title">Permission Center</string>
+    <string name="perm_center_subtitle">Every capability below is optional and independently controlled. PULSE never requests a permission it does not immediately need.</string>
+    <string name="perm_notifications">Notifications</string>
+    <string name="perm_notifications_desc">Show suggestions and digests</string>
+    <string name="perm_location">Location</string>
+    <string name="perm_location_desc">Used only for location-based rules and travel/commute detection</string>
+    <string name="perm_activity_recognition">Activity Recognition</string>
+    <string name="perm_activity_recognition_desc">Detects walking, running, cycling, driving, still</string>
+    <string name="perm_sensors">Motion Sensors</string>
+    <string name="perm_sensors_desc">Accelerometer, gyroscope, step counter, light, proximity</string>
+    <string name="perm_usage_access">Usage Access</string>
+    <string name="perm_usage_access_desc">Analyzes app usage patterns entirely on-device</string>
+    <string name="perm_calendar">Calendar</string>
+    <string name="perm_calendar_desc">Reads event times and titles to detect meetings</string>
+    <string name="perm_bluetooth">Bluetooth</string>
+    <string name="perm_bluetooth_desc">Detects known headphones, car audio, and wearables</string>
+    <string name="perm_notification_access">Notification Access</string>
+    <string name="perm_notification_access_desc">Required for Smart Notification filtering and digests</string>
+    <string name="perm_dnd_access">Do Not Disturb Access</string>
+    <string name="perm_dnd_access_desc">Required so Modes can adjust interruption filters</string>
+    <string name="perm_status_granted">Granted</string>
+    <string name="perm_status_denied">Not granted</string>
+    <string name="perm_status_not_requested">Not requested</string>
+    <string name="perm_open_settings">Open Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_context_detection">Context Detection</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_battery">Battery</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_ai">AI</string>
+    <string name="settings_accessibility">Accessibility</string>
+    <string name="settings_automation">Automation</string>
+    <string name="settings_data_management">Data Management</string>
+    <string name="settings_advanced">Advanced</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_dynamic_color">Dynamic color (Material You)</string>
+
+    <!-- Themes -->
+    <string name="theme_windows_default">Windows Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_red">Red Accent</string>
+    <string name="theme_blue">Blue Accent</string>
+    <string name="theme_system">Follow System</string>
+
+    <!-- Languages -->
+    <string name="lang_english">English</string>
+    <string name="lang_persian">فارسی</string>
+    <string name="lang_chinese">中文</string>
+
+    <!-- Data retention -->
+    <string name="retention_title">Data Retention</string>
+    <string name="retention_context_history">Context History</string>
+    <string name="retention_usage_analytics">Usage Analytics</string>
+    <string name="retention_notification_metadata">Notification Metadata</string>
+    <string name="retention_event_logs">Event Logs</string>
+    <string name="retention_clear_now">Clear now</string>
+    <string name="retention_auto_delete_after">Auto-delete after</string>
+    <string name="retention_7_days">7 days</string>
+    <string name="retention_30_days">30 days</string>
+    <string name="retention_90_days">90 days</string>
+    <string name="retention_forever">Keep forever</string>
+    <string name="retention_cleared_toast">Data cleared</string>
+
+    <!-- Command palette -->
+    <string name="command_palette_hint">Search modes, rules, settings, history…</string>
+    <string name="command_palette_no_results">No results</string>
+
+    <!-- Simulation / test mode -->
+    <string name="simulation_title">Simulation Mode</string>
+    <string name="simulation_subtitle">Build a synthetic context to test detection without touching real device state</string>
+    <string name="simulation_run">Run Simulation</string>
+    <string name="simulation_result">Result</string>
+    <string name="simulation_disclaimer">Simulation Mode never triggers real sensitive actions without confirmation</string>
+
+    <!-- Common -->
+    <string name="common_save">Save</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_on">On</string>
+    <string name="common_off">Off</string>
+    <string name="common_minutes">%1$d min</string>
+    <string name="common_hours">%1$dh %2$dm</string>
+    <string name="common_search">Search</string>
+    <string name="common_add">Add</string>
+    <string name="common_done">Done</string>
+    <string name="common_back">Back</string>
+    <string name="common_loading">Loading…</string>
+    <string name="common_empty">Nothing here yet</string>
+</resources>

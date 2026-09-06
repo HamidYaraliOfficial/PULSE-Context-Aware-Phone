@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">پالس</string>
+    <string name="app_tagline">گوشی هوشمند بر پایه Context</string>
+
+    <!-- ناوبری -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_timeline">جدول زمانی</string>
+    <string name="nav_modes">حالت‌ها</string>
+    <string name="nav_automations">اتوماسیون‌ها</string>
+    <string name="nav_insights">تحلیل‌ها</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- خانه -->
+    <string name="home_current_context">وضعیت فعلی</string>
+    <string name="home_confidence">%1$d%% اطمینان</string>
+    <string name="home_active_mode">حالت فعال</string>
+    <string name="home_suggested_actions">پیشنهادها</string>
+    <string name="home_focus_timer">تایمر تمرکز</string>
+    <string name="home_notification_summary">خلاصه اعلان‌ها</string>
+    <string name="home_battery">باتری</string>
+    <string name="home_activity_overview">نمای کلی فعالیت</string>
+    <string name="home_confirm_context">تأیید</string>
+    <string name="home_reject_context">رد</string>
+    <string name="home_correct_context">اصلاح</string>
+    <string name="home_why">چرا؟</string>
+    <string name="home_quick_actions">اقدامات سریع</string>
+    <string name="home_start_focus_session">شروع جلسه تمرکز</string>
+    <string name="home_no_active_mode">هیچ حالتی فعال نیست — در دسترس</string>
+    <string name="home_greeting_morning">صبح بخیر</string>
+    <string name="home_greeting_afternoon">ظهر بخیر</string>
+    <string name="home_greeting_evening">عصر بخیر</string>
+    <string name="home_greeting_night">شب بخیر</string>
+
+    <!-- انواع Context -->
+    <string name="context_study">مطالعه</string>
+    <string name="context_work">کار</string>
+    <string name="context_meeting">جلسه</string>
+    <string name="context_driving">رانندگی</string>
+    <string name="context_sleeping">خواب</string>
+    <string name="context_exercising">ورزش</string>
+    <string name="context_traveling">سفر</string>
+    <string name="context_relaxing">استراحت</string>
+    <string name="context_gaming">بازی</string>
+    <string name="context_commuting">رفت‌وآمد</string>
+    <string name="context_focus">تمرکز</string>
+    <string name="context_busy">مشغول</string>
+    <string name="context_available">در دسترس</string>
+    <string name="context_custom">سفارشی</string>
+    <string name="context_unknown">نامشخص</string>
+
+    <!-- حالت‌ها -->
+    <string name="mode_focus">حالت تمرکز</string>
+    <string name="mode_study">حالت مطالعه</string>
+    <string name="mode_work">حالت کار</string>
+    <string name="mode_meeting">حالت جلسه</string>
+    <string name="mode_driving">حالت رانندگی</string>
+    <string name="mode_sleep">حالت خواب</string>
+    <string name="mode_workout">حالت تمرین</string>
+    <string name="mode_travel">حالت سفر</string>
+    <string name="mode_gaming">حالت بازی</string>
+    <string name="mode_quiet">حالت سکوت</string>
+    <string name="mode_custom">حالت سفارشی</string>
+    <string name="mode_enable">فعال‌سازی</string>
+    <string name="mode_disable">غیرفعال‌سازی</string>
+    <string name="mode_active_since">فعال از %1$s</string>
+    <string name="mode_last_used">آخرین استفاده %1$s</string>
+    <string name="mode_schedule">زمان‌بندی</string>
+    <string name="mode_actions">اقدامات</string>
+    <string name="mode_rules">قوانین مرتبط</string>
+    <string name="mode_usage_history">تاریخچه استفاده</string>
+    <string name="mode_edit">ویرایش حالت</string>
+
+    <!-- زمان‌بندی / ساعات فعالیت -->
+    <string name="schedule_title">ساعات فعال بودن</string>
+    <string name="schedule_add_range">افزودن بازه زمانی</string>
+    <string name="schedule_day_mon">دوشنبه</string>
+    <string name="schedule_day_tue">سه‌شنبه</string>
+    <string name="schedule_day_wed">چهارشنبه</string>
+    <string name="schedule_day_thu">پنجشنبه</string>
+    <string name="schedule_day_fri">جمعه</string>
+    <string name="schedule_day_sat">شنبه</string>
+    <string name="schedule_day_sun">یکشنبه</string>
+    <string name="schedule_from">از ساعت</string>
+    <string name="schedule_to">تا ساعت</string>
+    <string name="schedule_status_active">هم‌اکنون فعال</string>
+    <string name="schedule_status_inactive">هم‌اکنون غیرفعال</string>
+    <string name="schedule_next_change_in">تغییر بعدی تا %1$s دیگر</string>
+    <string name="schedule_next_change_at">تغییر بعدی در ساعت %1$s</string>
+    <string name="schedule_no_hours_set">ساعتی تنظیم نشده — فقط بر اساس Context ارزیابی می‌شود</string>
+    <string name="schedule_copy_to_all_days">کپی به همه روزها</string>
+
+    <!-- اتوماسیون / قوانین -->
+    <string name="automation_title">اتوماسیون‌ها</string>
+    <string name="automation_new">اتوماسیون جدید</string>
+    <string name="automation_trigger">محرک</string>
+    <string name="automation_condition">شرط</string>
+    <string name="automation_action">اقدام</string>
+    <string name="automation_priority">اولویت</string>
+    <string name="automation_cooldown">فاصله زمانی</string>
+    <string name="automation_duration">مدت‌زمان</string>
+    <string name="automation_exception">استثنا</string>
+    <string name="automation_test">آزمایش</string>
+    <string name="automation_preview">پیش‌نمایش</string>
+    <string name="automation_history">تاریخچه اجرا</string>
+    <string name="automation_execution_count">%1$d بار اجرا شده</string>
+    <string name="automation_last_execution">آخرین اجرا: %1$s</string>
+    <string name="automation_add_node">افزودن گره</string>
+    <string name="automation_canvas_hint">گره‌ها را جابه‌جا کنید و به ترتیب به هم متصل نمایید</string>
+    <string name="automation_node_trigger">محرک</string>
+    <string name="automation_node_sensor">حسگر</string>
+    <string name="automation_node_time">زمان</string>
+    <string name="automation_node_location">موقعیت مکانی</string>
+    <string name="automation_node_calendar">تقویم</string>
+    <string name="automation_node_app_usage">استفاده از برنامه</string>
+    <string name="automation_node_device_state">وضعیت دستگاه</string>
+    <string name="automation_node_condition">شرط</string>
+    <string name="automation_node_delay">تأخیر</string>
+    <string name="automation_node_action">اقدام</string>
+    <string name="automation_node_end">پایان</string>
+    <string name="automation_operator_and">و</string>
+    <string name="automation_operator_or">یا</string>
+    <string name="automation_operator_not">نقیض</string>
+    <string name="automation_then">آنگاه</string>
+    <string name="automation_save">ذخیره اتوماسیون</string>
+    <string name="automation_conflict_detected">تداخل با قانون دیگری تشخیص داده شد</string>
+
+    <!-- جدول زمانی -->
+    <string name="timeline_title">جدول زمانی Context</string>
+    <string name="timeline_today">امروز</string>
+    <string name="timeline_edit_event">ویرایش رویداد</string>
+    <string name="timeline_delete_event">حذف</string>
+    <string name="timeline_ignore_event">نادیده گرفتن</string>
+    <string name="timeline_empty">هنوز فعالیتی ثبت نشده است</string>
+
+    <!-- تحلیل‌ها -->
+    <string name="insights_title">تحلیل‌ها</string>
+    <string name="insights_daily">روزانه</string>
+    <string name="insights_weekly">هفتگی</string>
+    <string name="insights_monthly">ماهانه</string>
+    <string name="insights_focus_time">زمان تمرکز</string>
+    <string name="insights_distraction_count">حواس‌پرتی‌ها</string>
+    <string name="insights_notification_load">حجم اعلان‌ها</string>
+    <string name="insights_mode_switches">تغییر حالت‌ها</string>
+    <string name="insights_active_hours">ساعات فعال</string>
+    <string name="insights_app_usage">استفاده از برنامه‌ها</string>
+    <string name="insights_patterns">الگوهای شناسایی‌شده</string>
+    <string name="insights_pattern_disclaimer">پیشنهاد بر اساس فعالیت اخیر شما — نه یک واقعیت قطعی</string>
+    <string name="insights_no_data">داده محلی کافی برای نمایش تحلیل وجود ندارد</string>
+
+    <!-- موتور اعلان -->
+    <string name="notif_digest_title">خلاصه اعلان‌ها</string>
+    <string name="notif_digest_summary">%1$d اعلان هنگام حالت %2$s به تعویق افتاد</string>
+    <string name="notif_priority_high">بالا</string>
+    <string name="notif_priority_normal">معمولی</string>
+    <string name="notif_priority_low">کم</string>
+    <string name="notif_category_deferred">به‌تعویق‌افتاده</string>
+
+    <!-- جلسه تمرکز -->
+    <string name="focus_session_title">جلسه تمرکز</string>
+    <string name="focus_session_goal">هدف</string>
+    <string name="focus_session_duration">مدت‌زمان</string>
+    <string name="focus_session_allowed_apps">برنامه‌های مجاز</string>
+    <string name="focus_session_start">شروع جلسه</string>
+    <string name="focus_session_stop">پایان جلسه</string>
+    <string name="focus_session_summary_title">خلاصه جلسه</string>
+    <string name="focus_session_time_focused">زمان تمرکز</string>
+    <string name="focus_session_distractions">حواس‌پرتی‌های تشخیص‌داده‌شده</string>
+    <string name="focus_session_deferred">اعلان‌های به‌تعویق‌افتاده</string>
+
+    <!-- حالت مطالعه -->
+    <string name="study_subject">درس</string>
+    <string name="study_goal">هدف</string>
+    <string name="study_playlist">پلی‌لیست مطالعه</string>
+    <string name="study_history">تاریخچه جلسات</string>
+
+    <!-- حالت جلسه -->
+    <string name="meeting_detected">جلسه تشخیص داده شد: %1$s</string>
+    <string name="meeting_enter_confirm">وارد حالت جلسه شوم؟</string>
+    <string name="meeting_summary">جلسه %1$s طول کشید، %2$d اعلان به تعویق افتاد</string>
+
+    <!-- حالت رانندگی -->
+    <string name="driving_minimal_ui_notice">رانندگی تشخیص داده شد — رابط برای ایمنی ساده‌سازی شد</string>
+    <string name="driving_voice_hint">در صورت امکان از دستورات صوتی استفاده کنید</string>
+
+    <!-- حالت خواب -->
+    <string name="sleep_bedtime">زمان خواب</string>
+    <string name="sleep_wake_time">زمان بیداری</string>
+    <string name="sleep_suggest">به نظر می‌رسد وقت خواب است — حالت خواب فعال شود؟</string>
+    <string name="sleep_morning_summary">حالت خواب به مدت %1$s فعال بود</string>
+
+    <!-- قابلیت توضیح -->
+    <string name="explain_title">چرا این Context؟</string>
+    <string name="explain_signals_used">سیگنال‌های استفاده‌شده</string>
+    <string name="explain_close">بستن</string>
+
+    <!-- مرکز مجوزها -->
+    <string name="perm_center_title">مرکز مجوزها</string>
+    <string name="perm_center_subtitle">هر قابلیت زیر اختیاری است و به‌طور مستقل کنترل می‌شود. پالس هرگز مجوزی را که فوراً نیاز ندارد درخواست نمی‌کند.</string>
+    <string name="perm_notifications">اعلان‌ها</string>
+    <string name="perm_notifications_desc">نمایش پیشنهادها و خلاصه‌ها</string>
+    <string name="perm_location">موقعیت مکانی</string>
+    <string name="perm_location_desc">فقط برای قوانین مبتنی بر مکان و تشخیص سفر/رفت‌وآمد استفاده می‌شود</string>
+    <string name="perm_activity_recognition">تشخیص فعالیت</string>
+    <string name="perm_activity_recognition_desc">تشخیص پیاده‌روی، دویدن، دوچرخه‌سواری، رانندگی، سکون</string>
+    <string name="perm_sensors">حسگرهای حرکتی</string>
+    <string name="perm_sensors_desc">شتاب‌سنج، ژیروسکوپ، قدم‌شمار، نور، مجاورت</string>
+    <string name="perm_usage_access">دسترسی به استفاده از برنامه‌ها</string>
+    <string name="perm_usage_access_desc">الگوی استفاده از برنامه‌ها را کاملاً روی دستگاه تحلیل می‌کند</string>
+    <string name="perm_calendar">تقویم</string>
+    <string name="perm_calendar_desc">برای تشخیص جلسات، زمان و عنوان رویدادها را می‌خواند</string>
+    <string name="perm_bluetooth">بلوتوث</string>
+    <string name="perm_bluetooth_desc">تشخیص هدفون، صوت خودرو و پوشیدنی‌های شناخته‌شده</string>
+    <string name="perm_notification_access">دسترسی به اعلان‌ها</string>
+    <string name="perm_notification_access_desc">برای فیلتر هوشمند اعلان و خلاصه‌سازی لازم است</string>
+    <string name="perm_dnd_access">دسترسی به مزاحم نشوید</string>
+    <string name="perm_dnd_access_desc">برای تنظیم فیلتر وقفه توسط حالت‌ها لازم است</string>
+    <string name="perm_status_granted">اعطا شده</string>
+    <string name="perm_status_denied">اعطا نشده</string>
+    <string name="perm_status_not_requested">درخواست نشده</string>
+    <string name="perm_open_settings">باز کردن تنظیمات</string>
+
+    <!-- تنظیمات -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_general">عمومی</string>
+    <string name="settings_permissions">مجوزها</string>
+    <string name="settings_context_detection">تشخیص Context</string>
+    <string name="settings_notifications">اعلان‌ها</string>
+    <string name="settings_privacy">حریم خصوصی</string>
+    <string name="settings_battery">باتری</string>
+    <string name="settings_appearance">ظاهر برنامه</string>
+    <string name="settings_ai">هوش مصنوعی</string>
+    <string name="settings_accessibility">دسترس‌پذیری</string>
+    <string name="settings_automation">اتوماسیون</string>
+    <string name="settings_data_management">مدیریت داده</string>
+    <string name="settings_advanced">پیشرفته</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_theme">پوسته</string>
+    <string name="settings_dark_mode">حالت تاریک</string>
+    <string name="settings_dynamic_color">رنگ پویا (Material You)</string>
+
+    <!-- پوسته‌ها -->
+    <string name="theme_windows_default">پیش‌فرض ویندوز</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تاریک</string>
+    <string name="theme_red">قرمز</string>
+    <string name="theme_blue">آبی</string>
+    <string name="theme_system">پیروی از سیستم</string>
+
+    <!-- زبان‌ها -->
+    <string name="lang_english">English</string>
+    <string name="lang_persian">فارسی</string>
+    <string name="lang_chinese">中文</string>
+
+    <!-- نگهداری داده -->
+    <string name="retention_title">مدت نگهداری داده</string>
+    <string name="retention_context_history">تاریخچه Context</string>
+    <string name="retention_usage_analytics">تحلیل استفاده</string>
+    <string name="retention_notification_metadata">اطلاعات اعلان‌ها</string>
+    <string name="retention_event_logs">گزارش رویدادها</string>
+    <string name="retention_clear_now">پاک‌سازی اکنون</string>
+    <string name="retention_auto_delete_after">حذف خودکار بعد از</string>
+    <string name="retention_7_days">۷ روز</string>
+    <string name="retention_30_days">۳۰ روز</string>
+    <string name="retention_90_days">۹۰ روز</string>
+    <string name="retention_forever">نگهداری همیشگی</string>
+    <string name="retention_cleared_toast">داده‌ها پاک شدند</string>
+
+    <!-- پالت فرمان -->
+    <string name="command_palette_hint">جستجوی حالت‌ها، قوانین، تنظیمات، تاریخچه…</string>
+    <string name="command_palette_no_results">نتیجه‌ای یافت نشد</string>
+
+    <!-- حالت شبیه‌سازی -->
+    <string name="simulation_title">حالت شبیه‌سازی</string>
+    <string name="simulation_subtitle">یک Context مصنوعی بسازید تا بدون تغییر وضعیت واقعی دستگاه، تشخیص را آزمایش کنید</string>
+    <string name="simulation_run">اجرای شبیه‌سازی</string>
+    <string name="simulation_result">نتیجه</string>
+    <string name="simulation_disclaimer">حالت شبیه‌سازی هرگز بدون تأیید، اقدام حساس واقعی اجرا نمی‌کند</string>
+
+    <!-- عمومی -->
+    <string name="common_save">ذخیره</string>
+    <string name="common_cancel">انصراف</string>
+    <string name="common_delete">حذف</string>
+    <string name="common_edit">ویرایش</string>
+    <string name="common_confirm">تأیید</string>
+    <string name="common_yes">بله</string>
+    <string name="common_no">خیر</string>
+    <string name="common_on">روشن</string>
+    <string name="common_off">خاموش</string>
+    <string name="common_minutes">%1$d دقیقه</string>
+    <string name="common_hours">%1$d ساعت و %2$d دقیقه</string>
+    <string name="common_search">جستجو</string>
+    <string name="common_add">افزودن</string>
+    <string name="common_done">انجام شد</string>
+    <string name="common_back">بازگشت</string>
+    <string name="common_loading">در حال بارگذاری…</string>
+    <string name="common_empty">هنوز چیزی وجود ندارد</string>
+</resources>
