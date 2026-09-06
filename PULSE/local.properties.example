@@ -1,0 +1,3 @@
+## This file is machine-specific and should NOT be committed.
+## Copy this to local.properties and point sdk.dir at your Android SDK location.
+sdk.dir=/path/to/your/Android/sdk
